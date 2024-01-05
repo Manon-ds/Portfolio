@@ -1,0 +1,26 @@
+:root {
+  --main-bg-color: #0E192F;
+  --accent-color: rgb(240,156,150)
+}
+
+body{
+  background-color: var(--main-bg-color);
+  color: white;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.nameCont{
+  font-size: 100px;
+  margin-bottom: 0px;
+}
+
+.presCont{
+  font-size: 40px;
+  margin-top: 0px;
+}
