@@ -1,0 +1,48 @@
+.navCont{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+  position: fixed;
+}
+.nav{
+  display: flex;
+  flex-direction: row;
+  margin-right: 100px;
+  margin-top: 5px;
+}
+.nav::before{
+  content: "";
+  display:inline;
+  width: 900px;
+  height: 1px;
+  margin: 0px auto;
+  margin-top: 25px;
+  background-color: var(--accent-color);
+}
+.btn{
+  margin: 10px;
+  font-size: larger;
+}
+.icons{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  margin-top: 50px;
+}
+.icon{
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  margin-left: 50px;
+}
+.icons::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 500px;
+  margin: 0px auto;
+  margin-left: 65px;
+  background-color: var(--accent-color);
+}
