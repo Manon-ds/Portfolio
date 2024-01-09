@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: flex-end;
   position: fixed;
+  background-color: #0E192F;
 }
 .nav{
   display: flex;
@@ -24,6 +25,7 @@
 .btn{
   margin: 10px;
   font-size: larger;
+  color: var(--border-color);
 }
 .icons{
   display: flex;

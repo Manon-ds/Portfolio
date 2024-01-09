@@ -1,16 +1,20 @@
 :root {
   --main-bg-color: #0E192F;
-  --accent-color: rgb(240,156,150)
+  --accent-color: rgb(240,156,150);
+  --txtcolor: #CCD6F6;
+  --border-color: #8499BF;
 }
 body{
   background-color: var(--main-bg-color);
-  color: rgb(243, 233, 233);
+  color: var(--txtcolor);
+
 }
 .container{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 200px;
 }
 .nameCont{
   font-size: 80px;
@@ -21,8 +25,10 @@ body{
 .presCont{
   font-size: 30px;
   margin-top: 0px;
+  color: var(--border-color);
 }
 .name{
   margin-top: 0px;
   margin-bottom: 0px;
+  text-shadow: 2px 2px 5px var(--accent-color);
 }
