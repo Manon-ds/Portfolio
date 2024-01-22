@@ -3,6 +3,10 @@
   --accent-color: rgb(240,156,150);
   --txtcolor: #CCD6F6;
   --border-color: #8499BF;
+  --orange: #C9975E;
+  --green: #90BB6C;
+  --pink: #AC6BC2;
+  --blue: #57AEEF;
 }
 body{
   background-color: var(--main-bg-color);
@@ -30,5 +34,5 @@ body{
 .name{
   margin-top: 0px;
   margin-bottom: 0px;
-  text-shadow: 2px 2px 5px var(--accent-color);
+  text-shadow: 2px 2px 5px var(--blue);
 }

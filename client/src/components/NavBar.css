@@ -20,7 +20,7 @@
   height: 1px;
   margin: 0px auto;
   margin-top: 25px;
-  background-color: var(--accent-color);
+  background-color: var(--pink);
 }
 .btn{
   margin: 10px;
@@ -46,5 +46,5 @@
   height: 500px;
   margin: 0px auto;
   margin-left: 65px;
-  background-color: var(--accent-color);
+  background-color: var(--green);
 }

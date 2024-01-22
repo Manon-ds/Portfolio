@@ -1,5 +1,6 @@
 import React from 'react';
 import './Presentation.css';
+import Arrow from './Arrow';
 
 export default function Presentation(){
   return(
@@ -11,6 +12,7 @@ export default function Presentation(){
         <p>Full Stack software engineer <br />
           Creating innovative applications to improve people's lives <br />and giving them a great user experience. </p>
       </div>
+      <Arrow/>
     </div>
   )
 }
