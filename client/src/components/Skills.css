@@ -3,7 +3,7 @@
   flex-direction: row;
   margin-left: 130px;
   margin-right: 130px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 
 }
 .title{
@@ -67,4 +67,10 @@
 }
 p{
   color: var(--border-color);
+}
+.skillsmain{
+  padding-bottom: 0px;
+}
+.svg-filters{
+  height:0px;
 }

@@ -4,7 +4,7 @@ import Presentation from './components/Presentation';
 import NavBar from './components/NavBar';
 import Icons from './components/Icons';
 import Skills from './components/Skills';
-import Arrow from './components/Arrow';
+import Experience from './components/Experience';
 
 function App() {
   return (
@@ -12,8 +12,8 @@ function App() {
       <NavBar/>
       <Icons/>
       <Presentation/>
-      {/* <Arrow/> */}
       <Skills/>
+      <Experience/>
     </div>
   );
 }
