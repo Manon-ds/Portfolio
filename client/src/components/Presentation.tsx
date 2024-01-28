@@ -4,7 +4,7 @@ import Arrow from './Arrow';
 
 export default function Presentation(){
   return(
-    <div className='container'>
+    <div className='container' id='home'>
       <div className='nameCont'>
         <h2 className='name'>Manon Brun</h2>
       </div>

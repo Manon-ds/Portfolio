@@ -5,10 +5,10 @@ export default function NavBar(){
   return(
     <div className='navCont'>
       <div className='nav'>
-        <p className='btn'>Home</p>
-        <p className='btn'>Skills</p>
-        <p className='btn'>Experience</p>
-        <p className='btn'>Contact</p>
+        <a href="#home" className='btn'>Home</a>
+        <a href="#skills" className='btn'>Skills</a>
+        <a href="#experience" className='btn'>Experience</a>
+        <a href="#contact" className='btn'>Contact</a>
       </div>
     </div>
   )

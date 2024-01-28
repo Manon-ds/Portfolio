@@ -1,13 +1,17 @@
 import React from "react";
 import './Experience.css';
 import Moodflow from "./Moodflow";
+import Langage from "./LanGage";
+import Poketask from "./Poketask";
 
 export default function Experience(){
   return(
     <div >
-      <h2 className="exptitle">Experience</h2>
+      <h2 className="exptitle" id="experience">Experience</h2>
       <div className="cont">
         <Moodflow/>
+        <Langage/>
+        <Poketask/>
       </div>
       <svg xmlns="//www.w3.org/2000/svg" version="1.1" className="svg-filters" >
         <defs>
