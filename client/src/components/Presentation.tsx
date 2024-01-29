@@ -13,6 +13,7 @@ export default function Presentation(){
           Creating innovative applications to improve people's lives <br />and giving them a great user experience. </p>
       </div>
       <Arrow/>
+      <div  id="skills"></div>
     </div>
   )
 }
