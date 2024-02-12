@@ -7,7 +7,7 @@ import Poketask from "./Poketask";
 export default function Experience(){
   return(
     <div >
-      <h2 className="exptitle" id="experience">Experience</h2>
+      <h2 className="exptitle" >Experience</h2>
       <div className="cont">
         <Moodflow/>
         <Langage/>
@@ -21,6 +21,7 @@ export default function Experience(){
           </filter>
         </defs>
       </svg>
+      <div  id="contact"></div>
     </div>
   )
 }

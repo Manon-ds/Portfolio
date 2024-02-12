@@ -5,6 +5,7 @@ import NavBar from './components/NavBar';
 import Icons from './components/Icons';
 import Skills from './components/Skills';
 import Experience from './components/Experience';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Presentation/>
       <Skills/>
       <Experience/>
+      <Contact/>
     </div>
   );
 }

@@ -3,7 +3,7 @@ import './Skills.css'
 
 export default function Skills(){
   return(
-    <div className="skillsmain" id="skills">
+    <div className="skillsmain">
       <h2 className="title">My Skills</h2>
       <div className="skillscont">
         <div className="skill">
@@ -27,6 +27,7 @@ export default function Skills(){
           </filter>
         </defs>
       </svg>
+      <div id="experience"></div>
     </div>
 
   )
