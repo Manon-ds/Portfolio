@@ -6,7 +6,7 @@ import Poketask from "./Poketask";
 
 export default function Experience(){
   return(
-    <div >
+    <div className="exp-container" >
       <h2 className="exptitle" >Experience</h2>
       <div className="cont">
         <Moodflow/>

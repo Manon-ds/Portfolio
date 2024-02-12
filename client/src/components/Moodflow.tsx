@@ -14,7 +14,7 @@ export default function Moodflow(){
       </div>
       <div className="textcont">
         <div className="text">
-          <p className="moodP"><span className="realistic-marker-highlight4">Moodflow is a mental health task tracking app    .</span><br/><span className="realistic-marker-highlight4">offering users different features to track    .</span><br/><span className="realistic-marker-highlight4">and improve their mood.    .</span></p>
+          <p className="moodP"><span className="realistic-marker-highlight4">Moodflow is a mental health tracking app    .</span><br/><span className="realistic-marker-highlight4">offering users different features to track    .</span><br/><span className="realistic-marker-highlight4">and improve their mood.    .</span></p>
         </div>
         <div>
           <p className="bold"><span className="realistic-marker-highlight4">React-native - Redux - TypeScript - Jest - React-native Reanimated - SQLite - Bcrypt - Neo4J</span></p>

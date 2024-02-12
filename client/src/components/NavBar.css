@@ -16,7 +16,7 @@
 .nav::before{
   content: "";
   display:inline;
-  width: 900px;
+  width: 100vw;
   height: 1px;
   margin: 0px auto;
   margin-top: 25px;
@@ -44,7 +44,7 @@
   content: "";
   display: block;
   width: 1px;
-  height: 500px;
+  height: 100vh;
   margin: 0px auto;
   margin-left: 65px;
   background-color: var(--green);
