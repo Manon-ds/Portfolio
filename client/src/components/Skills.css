@@ -76,3 +76,10 @@ p{
 .svg-filters{
   height:0px;
 }
+@media screen and (max-width: 950px){
+  .skillscont{
+    flex-direction: column;
+    margin-left:5px;
+    margin-right: 5px;
+  }
+}

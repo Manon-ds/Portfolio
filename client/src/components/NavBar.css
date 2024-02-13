@@ -49,3 +49,8 @@
   margin-left: 65px;
   background-color: var(--green);
 }
+@media screen and (max-width: 950px) {
+  .navCont, .icons{
+    display: none;
+  }
+}

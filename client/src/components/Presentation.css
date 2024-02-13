@@ -41,3 +41,13 @@ body{
   margin-bottom: 0px;
   text-shadow: 2px 2px 5px var(--blue);
 }
+@media screen and (max-width: 950px) {
+  .nameCont{
+    width: 75%;
+    font-size: 7vw;
+  }
+  .presCont{
+    width: 75%;
+    font-size: 5vw;
+  }
+}

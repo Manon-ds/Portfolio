@@ -19,6 +19,7 @@ export default function Skills(){
           <p>Skilled in developing RESTful APIs <br/>using Node.js and Express.js, <br/>as well as SQL and NoSQL databases, <br/>and Jest and Cypress for testing</p>
         </div>
       </div>
+
       <svg xmlns="//www.w3.org/2000/svg" version="1.1" className="svg-filters" >
         <defs>
           <filter id="marker-shape">
@@ -27,7 +28,9 @@ export default function Skills(){
           </filter>
         </defs>
       </svg>
+
       <div id="experience"></div>
+      
     </div>
 
   )
