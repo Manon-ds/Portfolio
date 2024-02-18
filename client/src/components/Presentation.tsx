@@ -9,8 +9,8 @@ export default function Presentation(){
         <h2 className='name'>Manon Brun</h2>
       </div>
       <div className='presCont'>
-        <p>Full Stack software engineer <br />
-          Creating innovative applications to improve people's lives <br />and giving them a great user experience. </p>
+        <p>I'm a software engineer <br />
+          specializing in creating innovative applications <br />with a great design and user experience. </p>
       </div>
       <Arrow/>
       <div  id="skills"></div>

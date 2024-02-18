@@ -1,7 +1,16 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
 }
-
+.icons-cont{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: flex-start;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

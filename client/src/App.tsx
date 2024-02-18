@@ -11,7 +11,9 @@ function App() {
   return (
     <div className="App">
       <NavBar/>
-      <Icons/>
+      <div className='icons-cont'>
+        <Icons/>
+      </div>
       <Presentation/>
       <Skills/>
       <Experience/>

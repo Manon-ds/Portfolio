@@ -6,7 +6,7 @@ import screen1 from '../assets/screenshot1.png'
 
 export default function Moodflow(){
   return(
-    <div className="moodflow">
+    <div className="moodflow one">
       <div className="imgcont">
         <img className='img' src={screen2} alt="" />
         <img className='img' src={screen3} alt="" />
@@ -16,8 +16,8 @@ export default function Moodflow(){
         <div className="text">
           <p className="moodP"><span className="realistic-marker-highlight4">Moodflow is a mental health tracking app    .</span><br/><span className="realistic-marker-highlight4">offering users different features to track    .</span><br/><span className="realistic-marker-highlight4">and improve their mood.    .</span></p>
         </div>
-        <div>
-          <p className="bold"><span className="realistic-marker-highlight4">React-native - Redux - TypeScript - Jest - React-native Reanimated - SQLite - Bcrypt - Neo4J</span></p>
+        <div >
+          <p className="bold"><span className="realistic-marker-highlight4">React-native - Redux - TypeScript - Jest - SQLite - Bcrypt - Neo4J</span></p>
         </div>
       </div>
 

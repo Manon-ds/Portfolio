@@ -5,7 +5,7 @@ import screen from '../assets/poketask.png'
 
 export default function Poketask(){
   return(
-    <div className="moodflow">
+    <div className="moodflow three">
       <div className="imgcont">
         <img className='img2' src={screen} alt="" />
       </div>

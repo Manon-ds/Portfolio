@@ -1,5 +1,6 @@
 :root {
   --main-bg-color: #0E192F;
+  --sec-bg-color: rgb(20, 39, 77);
   --accent-color: rgb(240,156,150);
   --txtcolor: #CCD6F6;
   --border-color: #8499BF;
@@ -35,11 +36,13 @@ body{
   font-size: 30px;
   margin-top: 0px;
   color: var(--border-color);
+  font-family: 'Inconsolata';
 }
 .name{
   margin-top: 0px;
   margin-bottom: 0px;
   text-shadow: 2px 2px 5px var(--blue);
+  font-family: 'Inconsolata';
 }
 @media screen and (max-width: 950px) {
   .nameCont{

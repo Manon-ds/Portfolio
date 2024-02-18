@@ -1,11 +1,13 @@
 .navCont{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 100%;
   align-items: center;
   justify-content: flex-end;
   position: fixed;
   background-color: #0E192F;
+  padding-right: 20%;
+  z-index: 4;
 }
 .nav{
   display: flex;
@@ -27,12 +29,15 @@
   font-size: larger;
   color: var(--border-color);
   text-decoration: none;
+  font-family: 'Inconsolata';
 }
 .icons{
   display: flex;
   flex-direction: column;
   position: fixed;
   margin-top: 50px;
+  align-self: flex-start;
+  justify-self: flex-start;
 }
 .icon{
   width: 30px;
@@ -49,8 +54,26 @@
   margin-left: 65px;
   background-color: var(--green);
 }
+.bar{
+  display: none;
+}
 @media screen and (max-width: 950px) {
-  .navCont, .icons{
+  .navCont{
+    padding: 0%;
+
+  }
+  .nav::before, .icons{
     display: none;
+  }
+  .nav{
+    display: flex;
+    flex-direction: row;
+    margin:0;
+    margin-top: 5px;
+  }
+  .bar{
+    display: block;
+    border-top: 2px solid var(--pink);
+    width: 100%;
   }
 }

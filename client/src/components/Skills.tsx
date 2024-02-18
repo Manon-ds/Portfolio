@@ -4,7 +4,7 @@ import './Skills.css'
 export default function Skills(){
   return(
     <div className="skillsmain">
-      <h2 className="title">My Skills</h2>
+      <h2 className="title">Tech stack</h2>
       <div className="skillscont">
         <div className="skill">
           <h3 className="skillName"><span className="realistic-marker-highlight">Software   </span> <br/><span className="realistic-marker-highlight">Development</span></h3>
