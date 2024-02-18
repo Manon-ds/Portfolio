@@ -2,6 +2,9 @@
 .exp-container{
   width: 90%;
   margin-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 .exptitle{
   font-size: 50px;
@@ -14,30 +17,46 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 90%;
 }
 .moodflow{
   width: 90%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr ;
+  gap: 10px 10px;
+  /* flex-direction: row; */
+  /* align-items: center;
+  justify-content: center; */
   margin-bottom: 150px;
 }
+h2{
+  font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
+}
 .textcont{
-  flex:1;
-  max-width: 50%;
+  /* flex:1; */
+  /* max-width: 50%; */
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-end;
+  grid-column-start: 6;
+  grid-column-end: 11;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr ;
+  gap: 10px 10px;
 }
 .text{
   background-color: var(--sec-bg-color);
+  text-align: end;
   padding-left: 2%;
   padding-right: 2%;
   z-index: 2;
-  position: absolute;
+  position: relative;
   border-radius: 2%;
+  font-family: 'Calibre','Inter','San Francisco','SF Pro Text', sans-serif;
 }
 .moodP{
   color: var(--txtcolor);
@@ -47,31 +66,42 @@
 .bold{
   font-weight: bold;
   font-size: smaller;
+  grid-column-start: 7;
+  grid-column-end: 11;
+  z-index: 2;
+  position: relative;
+  font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
+
 }
 .imgcont{
-  flex: 2;
+  grid-column-start:1;
+  grid-column-end:7 ;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  /* flex: 2; */
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  /* margin-right: 30px; */
-  max-width: fit-content;
+  max-width: 90%;
   background-color: var(--txtcolor);
   padding-top: 7%;
   padding-left: 0%;
-  padding-right: 0%;
+  padding-right: 0%; 
   z-index: 1;
   position: relative;
   padding-bottom: 0%;
   border-radius: 2%;
+}
+.imgcont .one .three{
   margin-left: 10%;
 }
 .img{
-  width: 26%;
+  width: 30%;
   /* width: 23.2%; */
   padding: 10px;
 }
 .img2{
-  width: 70%;
+  width: 90%;
   /* width: 69.5%; */
   padding: 10px;
 }

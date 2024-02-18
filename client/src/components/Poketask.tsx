@@ -10,8 +10,9 @@ export default function Poketask(){
         <img className='img2' src={screen} alt="" />
       </div>
       <div className="textcont">
+        <h2>PokeTask</h2>
         <div className="text">
-          <p className="moodP"><span className="realistic-marker-highlight6">Poketask is a to-do list app    .</span><br/><span className="realistic-marker-highlight6">offering a game-like experience including    .</span><br/><span className="realistic-marker-highlight6">a point counter and a leveling-up character.    .</span></p>
+          <p className="moodP">An app to create task lists offering a game-like experience by earning points with each task completed, and a character leveling up accordingly.</p>
         </div>
         <div>
           <p className="bold"><span className="realistic-marker-highlight6">React - JavaScript - Jest - Express - MongoDB</span></p>

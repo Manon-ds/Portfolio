@@ -13,11 +13,12 @@ export default function Moodflow(){
         <img className='img' src={screen1} alt="" />
       </div>
       <div className="textcont">
+        <h2>Moodflow</h2>
         <div className="text">
-          <p className="moodP"><span className="realistic-marker-highlight4">Moodflow is a mental health tracking app    .</span><br/><span className="realistic-marker-highlight4">offering users different features to track    .</span><br/><span className="realistic-marker-highlight4">and improve their mood.    .</span></p>
+          <p className="moodP">A mental health tracking app offering users a daily flowchart, giving them feedback to improve their mood, as well as a journal feature, and a feed to reach out and support each other. </p>
         </div>
         <div >
-          <p className="bold"><span className="realistic-marker-highlight4">React-native - Redux - TypeScript - Jest - SQLite - Bcrypt - Neo4J</span></p>
+          <p className="bold"><span className="realistic-marker-highlight4">React-native - Redux - TypeScript - Jest - SQLite - Neo4J</span></p>
         </div>
       </div>
 
