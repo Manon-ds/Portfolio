@@ -6,7 +6,7 @@ export default function Langage(){
   return(
     <div className="moodflow two">
       <div className="textcont">
-        <h2>LanGage</h2>
+        <h2><span className="span">02.  </span>LanGage</h2>
         <div className="text">
           <p className="moodP">A chatbot letting users have beginner level conversations in Spanish with an AI generated spanish teacher, giving feedback and translations in real time.</p>
         </div>

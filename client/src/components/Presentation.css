@@ -1,6 +1,7 @@
 :root {
-  --main-bg-color: #0E192F;
-  --sec-bg-color: rgb(20, 39, 77);
+  --main-bg-color: #141f2e;
+  --sec-bg-color: rgb(30, 48, 84);
+  --third-bg-color: rgb(77, 90, 124);
   --accent-color: rgb(240,156,150);
   --txtcolor: #CCD6F6;
   --border-color: #8499BF;
@@ -26,10 +27,15 @@ body{
   justify-content: center;
   margin-bottom: 100px;
 }
+.sec-cont{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
 .nameCont{
   font-size: 80px;
   margin-bottom: 0px;
-  margin-top: 150px;
 
 }
 .presCont{
@@ -37,6 +43,16 @@ body{
   margin-top: 0px;
   color: var(--border-color);
   font-family: 'Inconsolata';
+  text-align: start;
+}
+.hi{
+  font-family: 'Inconsolata';
+  color: #c0f991;
+  font-size: 25px;
+  margin-bottom: 2%;
+  text-align: start;
+  margin-top: 150px;
+
 }
 .name{
   margin-top: 0px;
@@ -45,6 +61,12 @@ body{
   font-family: 'Inconsolata';
 }
 @media screen and (max-width: 950px) {
+  .container{
+    height: 50vh;
+  }
+  .sec-cont{
+    margin-left: 20%;
+  }
   .nameCont{
     width: 75%;
     font-size: 7vw;

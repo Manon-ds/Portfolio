@@ -10,7 +10,7 @@ export default function Poketask(){
         <img className='img2' src={screen} alt="" />
       </div>
       <div className="textcont">
-        <h2>PokeTask</h2>
+        <h2><span className="span">03.  </span>PokeTask</h2>
         <div className="text">
           <p className="moodP">An app to create task lists offering a game-like experience by earning points with each task completed, and a character leveling up accordingly.</p>
         </div>

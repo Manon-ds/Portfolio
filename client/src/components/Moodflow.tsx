@@ -13,7 +13,7 @@ export default function Moodflow(){
         <img className='img' src={screen1} alt="" />
       </div>
       <div className="textcont">
-        <h2>Moodflow</h2>
+        <h2><span className="span">01.  </span>Moodflow</h2>
         <div className="text">
           <p className="moodP">A mental health tracking app offering users a daily flowchart, giving them feedback to improve their mood, as well as a journal feature, and a feed to reach out and support each other. </p>
         </div>

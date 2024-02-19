@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: flex-end;
   position: fixed;
-  background-color: #0E192F;
+  background-color: var(--main-bg-color);
   padding-right: 20%;
   z-index: 4;
 }
@@ -31,6 +31,9 @@
   text-decoration: none;
   font-family: 'Inconsolata';
 }
+.btn:hover{
+  color: #c0f992;
+}
 .icons{
   display: flex;
   flex-direction: column;
@@ -38,6 +41,10 @@
   margin-top: 50px;
   align-self: flex-start;
   justify-self: flex-start;
+}
+.icon:hover{
+  animation: headShake; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
 }
 .icon{
   width: 30px;
