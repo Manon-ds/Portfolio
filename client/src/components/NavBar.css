@@ -12,7 +12,7 @@
 .nav{
   display: flex;
   flex-direction: row;
-  margin-right: 100px;
+  margin-right: 25%;
   margin-top: 5px;
 }
 .nav::before{
@@ -29,7 +29,7 @@
   font-size: larger;
   color: var(--border-color);
   text-decoration: none;
-  font-family: 'Inconsolata';
+  font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
 }
 .btn:hover{
   color: #c0f992;
@@ -43,7 +43,7 @@
   justify-self: flex-start;
 }
 .icon:hover{
-  animation: headShake; /* referring directly to the animation's @keyframe declaration */
+  animation: headShake; 
   animation-duration: 2s;
 }
 .icon{
@@ -67,7 +67,10 @@
 @media screen and (max-width: 950px) {
   .navCont{
     padding: 0%;
-
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .nav::before, .icons{
     display: none;
@@ -75,12 +78,21 @@
   .nav{
     display: flex;
     flex-direction: row;
-    margin:0;
-    margin-top: 5px;
+    align-items: center;
+    justify-content:space-evenly;
+    margin:4%;
+
+    /* margin-top: 5px; */
+    width: 100%;
+  }
+  .btn{
+    width: auto;
+    font-size: 1.2em;
   }
   .bar{
     display: block;
-    border-top: 2px solid var(--pink);
+    border-top: 2px solid #c0f992;
     width: 100%;
+    color: #c0f992;
   }
 }

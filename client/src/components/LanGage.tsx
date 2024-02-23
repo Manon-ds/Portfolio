@@ -15,7 +15,7 @@ export default function Langage(){
         </div>
       </div>
       <div className="imgcont">
-        <img className='img2' src={screenshot} alt="" />
+        <img className='img2' src={screenshot} alt="Screenshot of LanGage app, showing a conversation in spanish between the chatbot and a user" />
       </div>
       
 

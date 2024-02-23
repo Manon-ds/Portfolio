@@ -8,9 +8,9 @@ export default function Moodflow(){
   return(
     <div className="moodflow one">
       <div className="imgcont">
-        <img className='img' src={screen2} alt="" />
-        <img className='img' src={screen3} alt="" />
-        <img className='img' src={screen1} alt="" />
+        <img className='img' src={screen2} alt="screenshot of the home page of the Moodflow mobile app" />
+        <img className='img' src={screen3} alt="screenshot of the flowchat page of the Moodflow mobile app" />
+        <img className='img' src={screen1} alt="screenshot of the calendar page of the Moodflow mobile app" />
       </div>
       <div className="textcont">
         <h2><span className="span">01.  </span>Moodflow</h2>

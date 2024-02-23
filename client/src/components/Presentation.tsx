@@ -10,9 +10,10 @@ export default function Presentation(){
         <div className='nameCont'>
           <h2 className='name'>Manon Brun</h2>
         </div>
-        <div className='presCont'>
-          <p>I'm a software engineer <br />
-            specializing in creating innovative applications <br />with a great design and user experience. </p>
+        <div className='presCont css-typing'>
+          <p><span>I'm a software engineer</span></p>
+          <p><span>specialising in creating </span><span>innovative applications </span></p>
+          <p><span>with great design and </span><span>an engaging UX</span> </p>
         </div>
       </div>
       

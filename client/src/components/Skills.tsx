@@ -8,15 +8,15 @@ export default function Skills(){
       <div className="skillscont">
         <div className="skill">
           <h3 className="skillName"><span className="realistic-marker-highlight">Software   </span> <br/><span className="realistic-marker-highlight">Development</span></h3>
-          <p>Skilled in both OOP <br/>and Functional programming: <br/>with JavaScript and TypeScript</p>
+          <p>Skilled in both OOP <br/>and Functional programming: <br/>with <span className="skill-span">JavaScript</span> and <span className="skill-span">TypeScript</span></p>
         </div>
         <div className="skill">
           <h3><span className="realistic-marker-highlight2">Frontend:</span> <br/><span className="realistic-marker-highlight2">React, React Native</span></h3>
-          <p>Enthusiastic about UI/UX <br/>with a background spanning over 3 years in <br/>HTML, CSS, JS, Redux, React, React Native, Expo</p>
+          <p>Enthusiastic about <span className="skill-span">UI/UX</span> <br/>with a background spanning over 3 years in <br/><span className="skill-span">HTML, CSS, JS, Redux, React, React Native, Expo</span></p>
         </div>
         <div className="skill">
           <h3><span className="realistic-marker-highlight3">Backend: </span><br/><span className="realistic-marker-highlight3">Node.js, APIs</span></h3>
-          <p>Skilled in developing RESTful APIs <br/>using Node.js and Express.js, <br/>as well as SQL and NoSQL databases, <br/>and Jest and Cypress for testing</p>
+          <p>Skilled in developing <span className="skill-span">RESTful APIs</span> <br/>using <span className="skill-span">Node.js</span> and <span className="skill-span">Express.js</span>, <br/>as well as <span className="skill-span">SQL and NoSQL</span> databases, <br/>and <span className="skill-span">Jest</span> and <span className="skill-span">Cypress</span> for testing</p>
         </div>
       </div>
 

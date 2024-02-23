@@ -38,7 +38,7 @@
   margin-left:10% ;
 }
 .contact-span{
-  font-family: 'Inconsolata';
+  font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
   color: #bff990;
 }
 .resume_btn{
@@ -77,6 +77,12 @@
     padding-top: 10%;
     padding-bottom: 10%;
     margin: 0px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .contacts{
+    width: 80%;
   }
   .copy{
     display: none;

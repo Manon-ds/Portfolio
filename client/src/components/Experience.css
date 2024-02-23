@@ -56,13 +56,13 @@ h2{
   z-index: 2;
   position: relative;
   border-radius: 2%;
-  font-family: 'Calibre','Inter','San Francisco','SF Pro Text', sans-serif;
+  font-family: 'Verdana';
   box-shadow: 10px 10px 30px -12px rgb(1, 4, 41);
 }
 .moodP{
   color: var(--txtcolor);
   font-size: larger;
-  font-family: 'Roboto';
+  font-family: 'Verdana';
 }
 .bold{
   font-weight: bold;

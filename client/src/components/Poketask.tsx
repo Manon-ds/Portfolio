@@ -7,7 +7,7 @@ export default function Poketask(){
   return(
     <div className="moodflow three">
       <div className="imgcont">
-        <img className='img2' src={screen} alt="" />
+        <img className='img2' src={screen} alt="screenshoy of the Poketask app showing a to-do list next to the user's character" />
       </div>
       <div className="textcont">
         <h2><span className="span">03.  </span>PokeTask</h2>
